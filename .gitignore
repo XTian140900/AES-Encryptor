@@ -1,0 +1,35 @@
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build and package artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test and coverage artifacts
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Local secrets and environment variables
+.env
+.env.*
+!.env.example
+
+# macOS and editor files
+.DS_Store
+.vscode/
+
+# Local test files
+sample_files/
+tests/
